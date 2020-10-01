@@ -4,7 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One"); 
 
-@import "fishlist.css";
+@import "fishlist.css"; @import "quotelocation.css";
 
 /*Typography
 --------------------------------------------------------------*/

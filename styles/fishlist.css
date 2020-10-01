@@ -43,33 +43,3 @@
     background-color: #4D8B31;
 }
 
-.quoteContainer:hover{
-    background-color: #4D8B31;
-}
-
-.locationContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.locationPacific{
-    flex-basis: 25%;
-    justify-content: space-evenly;
-}
-
-.locationPacific:hover{
-    background-color: #4D8B31;
-}
-
-.locationCentralAmerica{
-    flex-basis: 25%;
-    justify-content: space-evenly;
-}
-
-.locationCentralAmerica:hover{
-    background-color: #4D8B31;
-}
-
-.tipContainer:hover {
-    background-color: #4D8B31;
-}
