@@ -1,0 +1,19 @@
+.fishList{
+    background-color: #0B4F6C;
+    border: #678D58; 
+}
+
+.fishList:hover{
+    background-color: #000000;
+}
+
+.fishContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish {
+    border: 1px solid #678D58;
+    flex-basis: 20%;
+    justify-content: space-evenly;
+}
