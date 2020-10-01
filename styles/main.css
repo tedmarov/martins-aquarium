@@ -32,7 +32,7 @@ fieldset {
 }
 
 img {
-    width: 50px;
+
 }
 
 .contentContainer{
@@ -46,7 +46,6 @@ img {
 .contentContainer__right{
     flex: 1;
     text-align: right;
-    flex-basis: 1%;
 }
 
 section, article, aside {
@@ -56,4 +55,23 @@ section, article, aside {
 body{
     background-image: url("https://cdn.wallpapersafari.com/58/74/GC67Ml.jpg");
     background-size: cover;
+}
+
+.quote__text {
+    font-weight: bold;
+}
+
+.tip__topic {
+    font-weight: bold;
+}
+
+.fish__image{
+    display:flex;
+    width: 150px;
+}
+
+.location__image{
+    display:flex;
+    width: 150px;
+    height: 100px;
 }

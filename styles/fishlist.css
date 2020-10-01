@@ -1,35 +1,5 @@
 .fishList{
 
-    
-}
-
-.fish__Blue:hover{
-    background-color: #4D8B31;
-}
-
-.fish__Bubba:hover{
-    background-color: #4D8B31;
-}
-
-.fish__Barry:hover{
-    background-color: #4D8B31;
-}
-
-.fish__Buddy:hover{
-    background-color: #4D8B31;
-}
-
-.tipsList:hover {
-    background-color: #4D8B31;
-}
-
-.travel__quotes:hover{
-    background-color: #4D8B31;
-}
-
-.travel__locations:hover{
-    background-color: #4D8B31;
-    flex-direction: row;
 }
 
 .fishContainer {
@@ -42,9 +12,17 @@
     justify-content: space-evenly;
 }
 
+.fish__Bubba:hover{
+    background-color: #4D8B31;
+}
+
 .fish__Barry {
     flex-basis: 25%;
     justify-content: space-evenly;
+}
+
+.fish__Barry:hover{
+    background-color: #4D8B31;
 }
 
 .fish__Buddy {
@@ -52,7 +30,46 @@
     justify-content: space-evenly;
 }
 
+.fish__Buddy:hover{
+    background-color: #4D8B31;
+}
+
 .fish__Blue {
     flex-basis: 25%;
     justify-content: space-evenly;
+}
+
+.fish__Blue:hover{
+    background-color: #4D8B31;
+}
+
+.quoteContainer:hover{
+    background-color: #4D8B31;
+}
+
+.locationContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.locationPacific{
+    flex-basis: 25%;
+    justify-content: space-evenly;
+}
+
+.locationPacific:hover{
+    background-color: #4D8B31;
+}
+
+.locationCentralAmerica{
+    flex-basis: 25%;
+    justify-content: space-evenly;
+}
+
+.locationCentralAmerica:hover{
+    background-color: #4D8B31;
+}
+
+.tipContainer:hover {
+    background-color: #4D8B31;
 }
