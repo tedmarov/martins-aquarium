@@ -12,7 +12,7 @@
     justify-content: space-evenly;
 }
 
-.location__Pacific:hover{
+.locationPacific:hover{
     background-color: #4D8B31;
 }
 
@@ -21,6 +21,10 @@
     justify-content: space-evenly;
 }
 
-.location__CentralAmerica:hover{
+.locationCentralAmerica:hover{
+    background-color: #4D8B31;
+}
+
+.tipContainer:hover {
     background-color: #4D8B31;
 }

@@ -2,84 +2,76 @@
 .fish {}
  .fish__name {}  */
 
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One"); 
+ @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One"); 
 
-@import "fishlist.css"; @import "quotelocation.css";
-
-/*Typography
---------------------------------------------------------------*/
-body,
-button,
-input,
-select,
-textarea {
-	color: yellow;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #404040;
-    font-family: "Patua One", serif;
-    letter-spacing: 2px;
-    background-color: #FFC857;
-}
-
-h1 {
-    text-align: center;
-}
-
-
-.contentContainer{
-    display: flex;
-}
-
-.contentContainer__left{
-    flex: 3;
-    flex-basis: 25%
-}
-
-.contentContainer__right{
-    flex: 1;
-    text-align: right;
-    flex-basis: 20%;
-}
-
-
-body{
-    background-image: url("https://cdn.wallpapersafari.com/58/74/GC67Ml.jpg");
-    background-size: cover;
-}
-
-.quote__text {
-    font-weight: bold;
-}
-
-.tip__topic {
-    font-weight: bold;
-}
-
-.tip__One:hover{
-    background-color: #4D8B31;
-}
-
-
-.tip__Two:hover{
-    background-color: #4D8B31;
-}
-
-
-.tip__Three:hover{
-    background-color: #4D8B31;
-}
-.fish__image{
-    display:flex;
-    width: 150px;
-}
-
-.location__image{
-    display:flex;
-    width: 150px;
-    height: 100px;
-}
+ @import "fishlist.css"; @import "quotelocation.css";
+ 
+ /*Typography
+ --------------------------------------------------------------*/
+ body,
+ button,
+ input,
+ select,
+ textarea {
+     color: yellow;
+     font-family: "Comfortaa", Arial, sans-serif;
+     font-size: 14px;
+     line-height: 1.5;
+ }
+ 
+ h1,h2,h3,h4,h5,h6 {
+     color: #404040;
+     font-family: "Patua One", serif;
+     letter-spacing: 2px;
+     background-color: #FFC857;
+ }
+ 
+ fieldset {
+     display:flex;
+     flex-direction: column;
+ }
+ 
+ img {
+ 
+ }
+ 
+ .contentContainer{
+     display: flex;
+ }
+ 
+ .contentContainer__left{
+     flex: 3;
+ }
+ 
+ .contentContainer__right{
+     flex: 1;
+     text-align: right;
+ }
+ 
+ section, article, aside {
+     
+ }
+ 
+ body{
+     background-image: url("https://cdn.wallpapersafari.com/58/74/GC67Ml.jpg");
+     background-size: cover;
+ }
+ 
+ .quote__text {
+     font-weight: bold;
+ }
+ 
+ .tip__topic {
+     font-weight: bold;
+ }
+ 
+ .fish__image{
+     display:flex;
+     width: 150px;
+ }
+ 
+ .location__image{
+     display:flex;
+     width: 150px;
+     height: 100px;
+ }
