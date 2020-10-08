@@ -5,8 +5,8 @@
 // TODO: Import `useFish` from the data provider module
 
 export const FishList = () => {
+    const contentElement = document.querySelector(".contentContainer__left")
 
-const contentElement = document.querySelector(".contentContainer__left")
 
 contentElement.innerHTML += `
 <section class="fishList">
