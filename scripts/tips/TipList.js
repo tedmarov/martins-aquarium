@@ -26,7 +26,7 @@ for (const tip of tips) {
 }
 
     contentElement.innerHTML += `
-    <section class="tipList">
+    <section class="tip__list">
     <h3>Care Tips</h3>
     <div class="tipContainer">
         ${tipHTMLRepresentations}

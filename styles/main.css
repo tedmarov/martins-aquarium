@@ -25,6 +25,10 @@
      letter-spacing: 2px;
      background-color: #FFC857;
  }
+
+ h1 {
+     text-align: center;
+ }
  
  fieldset {
      display:flex;
@@ -41,11 +45,13 @@
  
  .contentContainer__left{
      flex: 3;
+     flex-basis: 20%;
  }
  
  .contentContainer__right{
      flex: 1;
      text-align: right;
+     flex-basis: 30%;
  }
  
  section, article, aside {
@@ -64,7 +70,15 @@
  .tip__topic {
      font-weight: bold;
  }
+
+.tip__text {
+    font-style: italic;
+ }
  
+ .tip__One:hover{
+     background-color: #4D8B31;
+ }
+
  .fish__image{
      display:flex;
      width: 150px;
