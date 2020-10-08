@@ -14,6 +14,14 @@ const fishes = useFish()
 
 let fishHTMLRepresentations = ""
 for (const fish of fishes) {
+
+    /*
+      Invoke the Fish component function
+      and pass the current fish object as an argument.
+      Each time, add the return value to the
+      fishHTMLRepresentations variable with `+=`
+    */
+
     fishHTMLRepresentations += Fish(fish)
 }
 

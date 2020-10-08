@@ -21,6 +21,6 @@ export const useQuotes = () => {
     return travelQuotes.slice()
 }
 
-export const addQuote = (quoteObject) => {
-    travelQuotes.push(quoteObject)
+export const addQuote = (quoteObj) => {
+    travelQuotes.push(quoteObj)
 }
