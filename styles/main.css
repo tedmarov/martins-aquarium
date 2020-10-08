@@ -19,21 +19,17 @@ textarea {
 	line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #404040;
     font-family: "Patua One", serif;
     letter-spacing: 2px;
     background-color: #FFC857;
 }
 
-fieldset {
-	display:flex;
-	flex-direction: column;
+h1 {
+    text-align: center;
 }
 
-img {
-
-}
 
 .contentContainer{
     display: flex;
@@ -41,16 +37,15 @@ img {
 
 .contentContainer__left{
     flex: 3;
+    flex-basis: 25%
 }
 
 .contentContainer__right{
     flex: 1;
     text-align: right;
+    flex-basis: 20%;
 }
 
-section, article, aside {
-    
-}
 
 body{
     background-image: url("https://cdn.wallpapersafari.com/58/74/GC67Ml.jpg");
@@ -65,6 +60,19 @@ body{
     font-weight: bold;
 }
 
+.tip__One:hover{
+    background-color: #4D8B31;
+}
+
+
+.tip__Two:hover{
+    background-color: #4D8B31;
+}
+
+
+.tip__Three:hover{
+    background-color: #4D8B31;
+}
 .fish__image{
     display:flex;
     width: 150px;

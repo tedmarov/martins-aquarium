@@ -34,7 +34,7 @@ const fishCollection = [
         food: "Mollusks, crustaceans, and lakeweed.",
         species: "Ambystoma mexicana",
         length: 8,
-        location: "Harvest Location: Central American Caves (near Honduras)",
+        location: "Central American Caves (near Honduras)",
         image: "https://i.pinimg.com/originals/30/33/2f/30332ff1599f61560272deb3d8f15163.jpg"
     }
 ]
@@ -43,6 +43,6 @@ export const useFish = () => {
     return fishCollection.slice()
 }
 
-export const addFish = (fishObject) => {
-    fishCollection.push(fishObject)
+export const addFish = (fishObj) => {
+    fishCollection.push(fishObj)
 }
