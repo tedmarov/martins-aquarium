@@ -17,7 +17,7 @@ const fishCollection = [
         name: "Bubba",
         food: "Worms, insect larvae, and some fish.",
         species: "Nandopsis",
-        length: 8,
+        length: 9,
         location: "Central American Caves (near Honduras)",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNTe_oyGhdudKMTqPkLHYl2UijNPmdgmE_Yha54_f5REFW3-wv4Vz7xKK4BmV1st1fMlvdKl7lbd4VCH06ptS06chqTxXMA5frAbwj&usqp=CAU&ec=45707745"
     },
@@ -72,7 +72,7 @@ export const soldierFish = () => {
         }
 
     }
-    return soldiers
+    return soldierFish
 }
 
 export const nonHolyFish = () => {
@@ -80,7 +80,7 @@ export const nonHolyFish = () => {
     const regularFish = []
 
     for (const fish of fishCollection) {
-    if (fish.length % 3 !== 0 || fish.length % 5 !== 0 ) {
+    if (fish.length % 3 !== 0 && fish.length % 5 !== 0 ) {
         regularFish.push(fish)
         }
 
