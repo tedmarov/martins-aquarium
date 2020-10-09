@@ -5,12 +5,42 @@
 // TODO: Import `useFish` from the data provider module
 
 import { Fish } from "./Fish.js"
-import { useFish } from "./FishDataProvider.js"
+import { useFish, mostHolyFish, soldierFish, nonHolyFish } from "./FishDataProvider.js"
+
+const buildFishContainerHTML = (arrayOfFish) => {
+
+    let fishHTMLRepresentations = ""
+    for (const fish of arrayOfFish) {
+
+        fishHTMLRepresentations += Fish(fish)
+    }
+
+        return fishHTMLRepresentations
+}
 
 export const FishList = () => {
     const contentElement = document.querySelector(".contentContainer__left")
 
-const fishes = useFish()
+const holyFishes = mostHolyFish()
+console.log(holyFishes)
+
+const holyFishHTML = buildFishContainerHTML(holyFishes)
+console.log(holyFishHTML)
+
+
+
+const soldierFishes = soldierFish()
+console.log(soldierFishes)
+
+const soldierFishHTML = buildFishContainerHTML(soldierFishes)
+console.log(soldierFishHTML)
+
+
+const nonHolyFishes = nonHolyFish()
+
+const nonHolyFishHTML = buildFishContainerHTML(nonHolyFishes)
+
+/* const fishes = useFish()
 
 let fishHTMLRepresentations = ""
 for (const fish of fishes) {
@@ -22,14 +52,16 @@ for (const fish of fishes) {
       fishHTMLRepresentations variable with `+=`
     */
 
-    fishHTMLRepresentations += Fish(fish)
-}
+    /* fishHTMLRepresentations += Fish(fish) 
+}*/
 
     contentElement.innerHTML += `
     <section class="fishList">
     <h3>Fish List</h3>
     <div class="fishContainer">
-        ${fishHTMLRepresentations}
+        ${holyFishHTML}
+        ${soldierFishHTML}
+        ${nonHolyFishHTML}
     </div>
     </section>
 `
