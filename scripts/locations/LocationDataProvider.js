@@ -34,7 +34,7 @@ export const useQuote = () => {
     return travelQuote.slice()
 }
 
-export const addQuote = (quoteObj) => {
+export const addQuote = (quoteObj) => { 
     travelQuote.push(quoteObj)
 }
 
